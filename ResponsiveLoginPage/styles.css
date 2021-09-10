@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 220px;
+    height: 400px;
+    background-color: white;
+}
+
+.content-container {
+    margin: 15px 30px;
+}
+
+.top-container {
+    text-align: center;
+}
+
+.logo {
+    width: 40%;
+}
+
+.top-container > img {
+    margin-bottom: 25px;
+}
+
+.top-container > p {
+    font-size: 10px;
+    margin: 10px 0;
+}
+
+.top-container > p > a {
+    color: cornflowerblue;
+    font-size: 10px;
+}
+
+input[type="password"], input[type="email"] {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 8px;
+    width: 100%;
+    padding: 5px;
+}
+
+.check-ctr {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.check-ctr > input {
+    transform: scale(0.65);
+    margin-right: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: cornflowerblue;
+    border-radius: 3px;
+    border: none;
+    padding: 6px 0;
+    font-size: 8px;
+    color: white;
+}
+
+.pw-forgot {
+    
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.pw-forgot > a {
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+}
